@@ -1,0 +1,21 @@
+#include <iostream> 
+using namespace std;
+
+int main() 
+{ 
+    setlocale(0, ""); 
+    int a, b;
+    cout << "Введите первое число: "; 
+    cin >> a;
+    cout << "Введите второе число: "; 
+    cin >> b; 
+    int c = a + b;
+    cout << "Сумма чисел = " << c << endl;
+    int i = a * b;
+    cout << "Произведение чисел = " << i << endl;
+    int y = a / b;
+    cout << "Частное чисел = " << y << endl;
+    int p = a - b;
+    cout << "Разность чисел = " << p << endl;
+    return 0; 
+}
