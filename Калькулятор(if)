@@ -1,0 +1,31 @@
+#include <iostream> 
+#include <string> 
+using namespace std; 
+int main() 
+{ 
+double a; 
+double b; 
+string operation; 
+cout « "Type a \n"; 
+cin » a; 
+cout « "Type b \n"; 
+cin » b; 
+cout « "Choose operation, \n"; 
+cin » operation; 
+if( operation=="*" ){ 
+cout«"a*b="«a*b; 
+} 
+else if( operation=="/" ){ 
+cout«"a/b="«a/b; 
+} 
+else if( operation=="+" ){ 
+cout«"a+b="«a+b; 
+} 
+else if(operation=="-"){ 
+cout«"a-b="«a-b; 
+} 
+else { 
+cout « "wrong operation"; 
+} 
+
+}
